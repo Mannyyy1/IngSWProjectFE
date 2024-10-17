@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <title>Supporto</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Matteo Mengoli">
+        <meta name="keywords" content="html, css, javascript, jsp">
+
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+              data-tag="font"/>
+        <!-- External Style Information-->
+        <link href="../css/style.css " rel="stylesheet" type="text/css">
+        <link href="../css/supporto.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+    <link href="../css/style.css" rel="stylesheet"  />
+    <div>
+        <link href="../css/supporto.css" rel="stylesheet" />
+
+        <header class="paddingNavbar">
+            <img alt="Logo" src="public/logoHeader.png" class="logoNavbar" />
+
+            <!--------------------------------- MENU desktop ---------------------------------->
+
+            <!--sezione di navigazione -->
+            <nav class="linkNavbar">
+                <a href="https://www.codecrusaders.com/home">
+                    <span class="textNavbar">Home</span>
+                </a>
+                <a href="https://www.codecrusaders.com/messaggi">
+                    <span class="textNavbar">Messaggi</span>
+                </a>
+                <a href="https://www.codecrusaders.com/amici">
+                    <span class="textNavbar">Amici</span>
+                </a>
+                <a href="https://www.codecrusaders.com/eventi">
+                    <span class="textNavbar">Eventi</span>
+                </a>
+                <a href="https://www.codecrusaders.com/account">
+                    <span class="textNavbar">Account</span>
+                </a>
+            </nav>
+
+            <!-------------------------- MENU con logo e icona hamburger (mobile) ----------------------------------------->
+            <div class="navbar-burger-menu">
+                <!-- SVG scaricato da Google fonts -->
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     height="48px"
+                     viewBox="0 -960 960 960"
+                     width="48px"
+                     fill="#EFEFEF">
+                    <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/>
+                </svg>
+            </div>
+
+            <!------------------------- MENU con link e icona x di chiusura (mobile) ------------------------------------->
+            <div class="navbar-mobile-menu">
+                <div class="navbar-nav">
+
+                    <div class="navbar-top">
+                        <img alt="logo" src="public/logoHeader.png" class="navbar-logo"/>
+
+                        <div class="navbar-close-menu">
+                            <!-- SVG scaricato da Google fonts -->
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 height="24px"
+                                 viewBox="0 -960 960 960"
+                                 width="24px"
+                                 fill="#EFEFEF">
+                                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!------------------------- MENU con link e icona x di chiusura (mobile) --------------------------------->
+                    <nav class="navbar-links-mobile">
+                        <a href="https://www.codecrusaders.com/home">
+                            <span class="textNavbar">Home</span>
+                        </a>
+                        <a href="https://www.codecrusaders.com/messages">
+                            <span class="textNavbar">Messaggi</span>
+                        </a>
+                        <a href="https://www.codecrusaders.com/friends">
+                            <span class="textNavbar">Amici</span>
+                        </a>
+                        <a href="https://www.codecrusaders.com/events">
+                            <span class="textNavbar">Event</span>
+                        </a>
+                        <a href="https://www.codecrusaders.com/account">
+                            <span class="textNavbar">Account</span>
+                        </a>
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+
+
+
+        <!---------------------------------------------- CONTENUTO ----------------------------------------------------->
+
+        <!---------------------Features1 component--------------------------->
+        <div class="features1-padding thq-section-padding">
+            <div class="features1-max-width thq-section-max-width">
+
+                <!-- Container titolo e barra di ricerca -->
+                <div class="sectionTitle">
+                    <h1>Come possiamo aiutarti?</h1>
+
+                    <div class="containerBarra">
+                            <img alt="image" src="public/ricerca.png" class="imageSearch"/>
+                            <input type="search" name="search" placeholder="Cerca negli articoli dell’assistenza..." id="search">
+                    </div>
+                </div>
+
+                <!-- Container titolo e 6 argomenti principali -->
+                <div class="features-container-arg">
+                    <h2 class="h2Feature">Argomenti popolari</h2>
+
+                    <!-- Contenitore griglia -->
+                    <div class="thq-grid-3">
+                        <!--Pulsante come collegamento, con codice JavaScript -->
+                        <button onclick="document.location='https://www.codecrusaders.com/gestione-account/impostazioni-account'"
+                            class="buttonFeatureArg">
+                            <img alt="image" src="public/account.png" class="imagefeature"/>
+                            <h4>Impostazioni Account</h4>
+                            <span class="textButton">
+                              Modifica le impostazioni, gestisci le notifiche, scopri di più sulle modifiche al nome e altro ancora
+                            </span>
+                        </button>
+
+                        <button onclick="document.location='https://www.codecrusaders.com/gestione-account/accesso'"
+                            class="buttonFeatureArg">
+                            <img alt="image" src="public/chiave.png" class="imagefeature"/>
+                            <h4>Accesso e Password</h4>
+                            <span class="textButton">
+                              Risolvi i problemi di accesso e scopri come modificare o reimpostare la password
+                            </span>
+                        </button>
+
+                        <button onclick="document.location='https://www.codecrusaders.com/privacy-sicurezza-report/privacy'"
+                            class="buttonFeatureArg">
+                            <img alt="image" src="public/lucchetto.png" class="imagefeature"/>
+                            <h4>Privacy e Sicurezza</h4>
+                            <span class="textButton">
+                              Controlla chi può vedere quello che condividi e garantisci maggiore protezione
+                            </span>
+                        </button>
+
+                        <button onclick="document.location='https://www.codecrusaders.com/funzioni-del-sito/notifiche'"
+                            class="buttonFeatureArg">
+                            <img alt="image" src="public/notifica.png" class="imagefeature"/>
+                            <h4>Notifiche</h4>
+                            <span class="textButton">
+                              Scegli quali notifiche vuoi ricevere
+                            </span>
+                        </button>
+
+                        <button onclick="document.location='https://www.codecrusaders.com/funzioni-del-sito/eventi'"
+                            class="buttonFeatureArg">
+                            <img alt="image" src="public/evento.png" class="imagefeature"/>
+                            <h4>Eventi</h4>
+                            <span class="textButton">
+                                  Crea un evento, controlla chi vede il tuo evento o vi partecipa
+                            </span>
+                        </button>
+
+                        <button onclick="document.location='https://www.codecrusaders.com/funzioni-del-sito/gruppi'"
+                            class="buttonFeatureArg">
+                            <img alt="image" src="public/gruppo.png" class="imagefeature"/>
+                            <h4>Gruppi</h4>
+                            <span class="textButton">
+                                    Scopri come creare, gestire e utilizzare i gruppi
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="containerButton">
+                    <button onclick="document.location='https://www.codecrusaders.com/faq'"
+                            class="buttonFeatureFaq">
+                        Vai a tutte le Domande Frequenti
+                    </button>
+                </div>
+
+                <!-- divisore -->
+                <hr>
+            </div>
+        </div>
+
+        <!------------------------ Features2 component -------------------------------->
+        <div class="features2-padding thq-section-padding">
+            <div class="features2-max-width thq-section-max-width">
+
+                <div class="sectionTitle2">
+                    <h2 class="h2Feature">Non hai risolto il tuo problema?</h2>
+                    <h3>Contattaci scegliendo una delle modalità elencate.
+                        Riceverai le informazioni e l'assistenza richiesta.</h3>
+                </div>
+
+                <div class="thq-grid-3-secondo">
+                    <div class="containerLink">
+                        <img alt="image" src="public/modulo.png" class="imagelinkpag"/>
+                        <span class="textButton">
+                            Compila il modulo e invialo online
+                        </span>
+                        <!--link pagina Form -->
+                        <button onclick="document.location='form.html'"
+                                class="buttonFeaturePag">
+                            Scrivici
+                        </button>
+                    </div>
+
+                    <div class="containerLink">
+                        <img alt="image" src="public/chat.png" class="imagelinkpag"/>
+                        <span class="textButton">
+                            Parla con il nostro team del Servizio clienti via chat
+                        </span>
+                        <!--link pagina Chatta con noi -->
+                        <button onclick="document.location='chatta-con-noi.html'"
+                                class="buttonFeaturePag">
+                            Chatta con noi
+                        </button>
+                    </div>
+
+                    <div class="containerLink">
+                        <img src="public/email.png" alt="image" class="imagelinkpag"/>
+                        <span class="textButton">
+                            Contattaci direttamente via posta elettronica
+                        </span>
+                        <!--Collegamento a un indirizzo e-mail -->
+                        <button onclick="document.location='mailto:supporto@codecrusaders.it?subject=Qui%20metti%20oggetto%20&cc=esempio2@email.com&body=Qui%20metti%20messaggio'"
+                                class="buttonFeaturePag">
+                            Email
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!---------------------------------------------------- FOOTER ------------------------------------------------->
+        <footer>
+            <div class="thq-section-max-width">
+                <div class="footer-content">
+
+                    <div class="footer-container">
+                        <img alt="Logo" src="public/logoHeader.png" class="logoFooter"/>
+                        <span class="textMotto">
+                "La nuova era appartiene ai Code Crusaders: Creatori di possibilità infinite"
+              </span>
+                    </div>
+
+                    <div class="footer-menu">
+                        <div class="footer-column">
+
+                            <!-- Definisco testo con forte importanza tag<strong>.
+                             Il contenuto al suo interno è solitamente visualizzato in grassetto-->
+                            <strong>Link</strong>
+                            <div class="footer-links">
+                                <a href="https://www.codecrusaders.com/home">
+                                    <span class="textFooter">Home</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/messages" >
+                                    <span class="textFooter">Messaggi</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/friends">
+                                    <span class="textFooter">Amici</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/events" >
+                                    <span class="textFooter">Eventi</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/account">
+                                    <span class="textFooter">Account</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <strong>Assistenza Clienti</strong>
+                            <div class="footer-links">
+                                <a href="https://www.codecrusaders.com/faq">
+                                    <span class="textFooter">FAQ - Domande Frequenti</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/supporto">
+                                    <span class="textFooter">Supporto</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-column">
+                            <strong>Termini Legali</strong>
+                            <div class="footer-links">
+                                <a href="https://www.codecrusaders.com/termini&condizioni">
+                                    <span class="textFooter">Termini &amp; Condizioni</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/informativa-privacy">
+                                    <span class="textFooter">Informativa sulla Privacy</span>
+                                </a>
+                                <a href="https://www.codecrusaders.com/cookie">
+                                    <span class="textFooter">Cookie</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footerCredits">
+                    <div class="divider"></div>
+                    <div>
+              <span class="footerContentCredits">
+                Copyright ⓒ 2024 Code Crusaders Italia. Tutti i diritti riservati.
+              </span>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+
+    </div>
+    <script></script>
+    </body>
+</html>
