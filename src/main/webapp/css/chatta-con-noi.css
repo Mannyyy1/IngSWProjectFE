@@ -72,7 +72,7 @@ h2 {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("public/imgBanner.png");
+  background-image: url("../images/imgBanner.png");
   background-position: center;
   border-top-left-radius: 25%;
   border-bottom-left-radius: 25%;
@@ -195,16 +195,16 @@ form {
 
 /*2 container form dati da compilare*/
 .containerForm {
-   width: 100%;
-   display: flex;
-   flex: 0 0 auto;
-   overflow: auto;
-   align-items: flex-start;
-   flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex: 0 0 auto;
+  overflow: auto;
+  align-items: flex-start;
+  flex-direction: column;
 
-   height: 328px;
-   gap: 16px;
- }
+  height: 328px;
+  gap: 16px;
+}
 
 /*3 - container label+input*/
 .inputChat {
@@ -298,6 +298,13 @@ input[type=submit]:hover {
   background-color: #08457E;
 }
 
+#successMessage {
+  display:none;
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 /*------------ Per eventuali adattamenti (responsive web design) -------------*/
 
 
@@ -309,9 +316,9 @@ input[type=submit]:hover {
 
 @media(max-width: 991px) {
   .checkBanner {
-  width: 16px;
-  height: 16px;
-}
+    width: 16px;
+    height: 16px;
+  }
   .hero-chat {
     gap: 32px;
     flex-direction: column;
