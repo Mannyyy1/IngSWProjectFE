@@ -1,7 +1,7 @@
 # Servizio supporto utenti
 # Front End - Mengoli Matteo
 
-Questo template conterrà solo css, java e JS 
+Questo template conterrà solo css, JSP e JS 
 
 Markup and web languages such as HTML, CSS and Javascript
 Specialized Web editing SW
